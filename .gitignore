@@ -1,0 +1,66 @@
+@"
+.env
+.env.*
+!.env.example
+
+venv/
+.venv/
+env/
+ENV/
+
+__pycache__/
+*.pyc
+*.pyo
+
+google-ads.yaml
+service-account*.json
+credentials*.json
+client_secret*.json
+*.pem
+*.key
+
+.vscode/
+.idea/
+
+*.log
+.DS_Store
+Thumbs.db
+"@ | Set-Content .gitignore
+# Google Ads credentials / secrets
+google-ads-service-account.json
+google-ads-service-account-new.json
+google-ads-service-account*.json
+google-ads.yaml
+credentials*.json
+client_secret*.json
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Private keys
+*.pem
+*.key
+google-ads-python/
+google-ads-python/
+.env
+.env.*
+.venv/
+venv/
+google-ads-service-account*.json
+google-ads.yaml
+credentials*.json
+client_secret*.json
+*.key
+*.pem
+*.key
+*.pem
+*.key
+google-ads-python/

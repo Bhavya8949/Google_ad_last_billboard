@@ -1,0 +1,80 @@
+{
+  "customer_id": "5589543392",
+  "budget": {
+    "name": "Last Billboard API Search Budget",
+    "amount_micros": 10000000,
+    "explicitly_shared": false
+  },
+  "campaign": {
+    "name": "Last Billboard API Search Campaign",
+    "status": "PAUSED",
+    "contains_eu_political_advertising": "DOES_NOT_CONTAIN_EU_POLITICAL_ADVERTISING",
+    "network_settings": {
+      "target_google_search": true,
+      "target_search_network": false,
+      "target_partner_search_network": false,
+      "target_content_network": false
+    }
+  },
+  "ad_group": {
+    "name": "Last Billboard API Ad Group",
+    "status": "PAUSED",
+    "cpc_bid_micros": 1000000
+  },
+  "keywords": [
+    {
+      "text": "digital billboard advertising",
+      "match_type": "PHRASE"
+    },
+    {
+      "text": "online advertising platform",
+      "match_type": "PHRASE"
+    }
+  ],
+  "ad": {
+    "status": "PAUSED",
+    "headlines": [
+      "Advertise With Last Billboard",
+      "Launch Ads From One Platform",
+      "Manage Campaigns More Easily"
+    ],
+    "descriptions": [
+      "Create and manage advertising campaigns from one centralized platform.",
+      "Build your campaign, review it, and publish when you are ready."
+    ],
+    "final_urls": [
+      "https://www.lastbillboard.com/"
+    ],
+    "path1": "advertise",
+    "path2": "campaigns"
+  },
+  "image_asset": {
+    "name": "Last Billboard Search Image",
+    "file_path": "Image.png"
+  },
+  "created_resources": {
+    "campaign_budget": "customers/5589543392/campaignBudgets/15888886765",
+    "campaign": "customers/5589543392/campaigns/24255653703",
+    "ad_group": "customers/5589543392/adGroups/201801320802",
+    "keywords": [
+      "customers/5589543392/adGroupCriteria/201801320802~3650225872",
+      "customers/5589543392/adGroupCriteria/201801320802~4728805039"
+    ],
+    "image_asset": "customers/5589543392/assets/422269807471",
+    "responsive_search_ad": "customers/5589543392/adGroupAds/201801320802~825022838533",
+    "image_asset_link_unsupported": true,
+    "display_campaign_budget": "customers/5589543392/campaignBudgets/15884011332",
+    "display_campaign": "customers/5589543392/campaigns/24266766706",
+    "display_ad_group": "customers/5589543392/adGroups/195547913970",
+    "display_landscape_image_asset": "customers/5589543392/assets/422358399414",
+    "display_square_image_asset": "customers/5589543392/assets/422176418462",
+    "responsive_display_ad": "customers/5589543392/adGroupAds/195547913970~824983233486"
+  },
+  "live_control": {
+    "state": "PAUSED",
+    "updated_utc": "2026-09-18T15:47:15.280965+00:00",
+    "requested_minutes": 2,
+    "enabled_utc": "2026-09-18T15:45:12.310306+00:00",
+    "paused_utc": "2026-09-18T15:47:15.280965+00:00"
+  }
+}
